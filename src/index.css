@@ -1,0 +1,47 @@
+.whole-card{
+    padding: 20px;
+    margin: 10px;
+    max-width: 240px;
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px #ccc, -8px -8px 15px #fff;
+
+
+    display: inline-block;
+    max-height: 240px;
+    background-color: #ecf0f1;
+}
+.picture{
+
+    max-width: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 100%;
+}
+.class{
+    margin: 0px;
+    padding-bottom: 2px;
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    color: #2c3e50;
+    
+}
+.name{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: hsl(204, 64%, 8%);
+
+}
+.about-me{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    row-gap: 1px;
+    color: #7f8c8d;
+
+}
